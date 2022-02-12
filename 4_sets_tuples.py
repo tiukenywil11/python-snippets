@@ -58,6 +58,11 @@ print('Removing "Grape" from "fruits_set')
 fruits_set.remove('Grape')
 print(fruits_set)
 
+# Adding duplicate value to the set (Nothing happens)
+print('Adding duplicate "Apples" to "fruits_set')
+fruits_set.add('Apples')
+print(fruits_set)
+
 # Clear the set entirely (Empty set will remain)
 print('Clear all values from "fruits_set')
 fruits_set.clear()
